@@ -1,0 +1,41 @@
+.wrapper {
+    background-image: url(img/texturedwall.jpg);
+    background-size: 500px 700px;
+    min-height: calc(100vh - 71px - 60px);
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+body{
+    position: relative;
+    padding-bottom: 60px;
+    min-height: 100vh;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 40px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(122, 106, 106);
+}
+
+.button-container {
+    padding: 5px;
+    margin: 5px;
+}
+
+.index-row {
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+
+.col-md-12{
+    padding: 10px;
+}
