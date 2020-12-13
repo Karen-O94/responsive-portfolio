@@ -1,3 +1,4 @@
+/* Styling for the background of the page */
 .wrapper {
     background-image: url(img/texturedwall.jpg);
     background-size: 500px 700px;
@@ -5,13 +6,14 @@
     padding-bottom: 60px;
     padding-top: 20px;
 }
-
+/*Dimensions for body*/
 body{
     position: relative;
     padding-bottom: 60px;
     min-height: 100vh;
 }
 
+/* styling for footer across all 3 pages */
 .footer {
     position: absolute;
     bottom: 0;
@@ -23,20 +25,12 @@ body{
     background-color: rgb(122, 106, 106);
 }
 
+/* styling for 'Submit' button  */
 .button-container {
     padding: 5px;
     margin: 5px;
 }
 
-/* .index-row {
-    background-color: white;
-    padding-top: 40px;
-    padding-bottom: 60px;
-    margin-right: 50px;
-    margin-left: 30px;
-} */
-
 .col-md-12{
     padding: 10px;
 }
-
