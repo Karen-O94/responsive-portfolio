@@ -34,3 +34,11 @@ body{
 .col-md-12{
     padding: 10px;
 }
+
+.social-icons li{
+    display: inline-block;
+}
+
+p {
+    font-size: 20px;
+}
