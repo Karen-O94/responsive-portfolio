@@ -2,9 +2,7 @@
 .wrapper {
     background-image: url(img/texturedwall.jpg);
     /* background-size: 500px 700px; */
-    /* min-height: calc(100vh - 71px - 60px); */
-    /* padding-bottom: 60px;
-    padding-top: 20px; */
+     min-height: calc(100vh - 67px - 60px); 
 }
 /*Dimensions for body*/
 /* body{
@@ -14,18 +12,6 @@
 } */
 
 /* styling for footer across all 3 pages */
-/* .footer {
-    display: flex;
-    position: absolute;
-    bottom: 0; 
-    width: 100%;
-    height: 60px;
-    line-height: 40px;
-    text-align: center;
-    padding: 20px; 
-    background-color: rgb(122, 106, 106);
-} */
-
 .footer-span{
     text-align: center;
     color: white;
@@ -55,7 +41,12 @@ p {
 
 .card {
     background-color: #adb5bd;
+    border-radius: 0.5rem;
+    padding: 5px;
 }
 .card-section {
     margin-bottom: 30px;
+}
+.card-body li {
+    display: inline-block;
 }
