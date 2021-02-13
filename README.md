@@ -13,6 +13,9 @@ The [Contact Page](https://karen-o94.github.io/responsive-portfolio/contact.html
 
 The [Portfolio](https://karen-o94.github.io/responsive-portfolio/portfolio.html): Built with a series of 3 rows and 2 columns to hold images. The size of images was determined based on the size of the container to avoid images exceeding the container when screensize was reduced. Unfortunately I was not able to reduce the spacing within the 2 columns on a desktop screen but this spacing was eliminated as screen size was minimised. 
 
+## Link to Deployed Profile Page
+[Portfolio](https://karen-o94.github.io/responsive-portfolio/)
+
 **Screenshot**
 ![responsive_portfolio](https://user-images.githubusercontent.com/74797740/102023227-d5170d80-3d83-11eb-863e-b93c1128af47.png)
 
@@ -21,3 +24,6 @@ Tidying up formatting, including semantic tags and improving the overall styling
 
 ## Built with
 [Boostrap v5.0](https://getbootstrap.com/)
+
+# License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
