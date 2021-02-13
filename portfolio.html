@@ -1,42 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!--Bootstrap CSS link-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <!--personal CSS stylesheet goes here-->
-    <link rel="stylesheet" href="responsive_style.css">
-    
-    <title>My Portfolio</title>
 
-    <!--Navbar Toggler with links to other pages-->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-          <a class="navbar-brand" href="#" style="background-color: gray; color: white; font-size: 30px; font-weight: 25px;">Karen Opoku</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Information</a>
-                </li>    
-            </ul>
-      </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Bootstrap CSS link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+  <!--personal CSS stylesheet goes here-->
+  <link rel="stylesheet" href="responsive_style.css">
+
+  <title>My Portfolio</title>
+
+  <!--Navbar Toggler with links to other pages-->
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <a class="navbar-brand" href="#"
+      style="background-color: gray; color: white; font-size: 30px; font-weight: 25px;">Karen Opoku</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Information</a>
+        </li>
+      </ul>
+    </div>
   </nav>
 </head>
 
-<body>
-  <div class="wrapper">
-   
+<body class="d-flex flex-column h-100">
+  <main class="wrapper flex-shrink-0">
+
     <section class="container">
       <div class="row">
         <div class="col-xs-12 col-md-12" style="border-bottom: solid 1px white">
@@ -44,14 +49,16 @@
         </div>
       </div>
       <br>
-       <!--Displays Cards with gifs of deployed apps-->
-      <div class="row">
+      <!--Displays Cards with gifs of deployed apps-->
+      <div class="row card-section">
         <div class="col-xs-12 col-md-4">
           <div class="card" style="width: 18rem;">
             <h5 class="card-title">AstroSearch</h5>
-            <img src="img/AstroSearch.gif" class="card-img-top" alt="AstroSearch app displaying NASA Picture of the day">
+            <img src="img/AstroSearch.gif" class="card-img-top"
+              alt="AstroSearch app displaying NASA Picture of the day">
             <div class="card-body">
-              <p class="card-text">AstroSearch allows users to gain up-to-date astronomical info and images including NASA's Picture of the Day when a date is selected as well as rise and set times of sun/moon.</p>
+              <p class="card-text">AstroSearch allows users to gain up-to-date astronomical info and images including
+                NASA's Picture of the Day when a date is selected as well as rise and set times of sun/moon.</p>
               <a href="#" class="btn btn-primary">GitHub</a>
             </div>
           </div>
@@ -59,9 +66,12 @@
         <div class="col-xs-12 col-md-4">
           <div class="card" style="width: 18rem;">
             <h5 class="card-title">Weather Dashboard</h5>
-            <img src="img/Weather Dashboard.gif" class="card-img-top" alt="Weather Dashboard app to display weather information">
+            <img src="img/Weather Dashboard.gif" class="card-img-top"
+              alt="Weather Dashboard app to display weather information">
             <div class="card-body">
-              <p class="card-text">The Weather Dashboard allows users to see current weather and 5 day forecast of a city of their choice. This app makes use of the OpenWeather API to retrieve weather information such as humidity and UV Index </p>
+              <p class="card-text">The Weather Dashboard allows users to see current weather and 5 day forecast of a
+                city of their choice. This app makes use of the OpenWeather API to retrieve weather information such as
+                humidity and UV Index </p>
               <a href="#" class="btn btn-primary">GitHub</a>
             </div>
           </div>
@@ -69,20 +79,24 @@
         <div class="col-xs-12 col-md-4">
           <div class="card" style="width: 18rem;">
             <h5 class="card-title">Work Day Planner</h5>
-            <img src="img/AstroSearch.gif" class="card-img-top" alt="Work Day planner displaying timeblocks from 9am to 5pm">
+            <img src="img/AstroSearch.gif" class="card-img-top"
+              alt="Work Day planner displaying timeblocks from 9am to 5pm">
             <div class="card-body">
-              <p class="card-text">The Work Day Planner allows users to save present, future or past events for each hour of the work day from 9am to 5pm. This app makes use of the Moment.js library for dates and time information </p>
+              <p class="card-text">The Work Day Planner allows users to save present, future or past events for each
+                hour of the work day from 9am to 5pm. This app makes use of the Moment.js library for dates and time
+                information </p>
               <a href="#" class="btn btn-primary">GitHub</a>
             </div>
           </div>
         </div>
       </div>
 
-    <!--footer goes here-->
-    <footer class="footer">
-      <div class="container-fluid">
-        <span class="text-muted">© Copyright</span>
-      </div>
-    </footer>
+      <footer class="footer mt-auto py-3 bg-secondary">
+        <div class="container">
+          <span class="footer-span">© 2020 All Rights Reserved, adapted by Karen Opoku</span>
+        </div>
+      </footer>
+  </main>
 </body>
+
 </html>

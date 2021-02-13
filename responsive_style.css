@@ -1,28 +1,34 @@
 /* Styling for the background of the page */
 .wrapper {
     background-image: url(img/texturedwall.jpg);
-    background-size: 500px 700px;
-    min-height: calc(100vh - 71px - 60px);
-    padding-bottom: 60px;
-    padding-top: 20px;
+    /* background-size: 500px 700px; */
+    /* min-height: calc(100vh - 71px - 60px); */
+    /* padding-bottom: 60px;
+    padding-top: 20px; */
 }
 /*Dimensions for body*/
-body{
+/* body{
     position: relative;
     padding-bottom: 60px;
     min-height: 100vh;
-}
+} */
 
 /* styling for footer across all 3 pages */
-.footer {
+/* .footer {
+    display: flex;
     position: absolute;
-    bottom: 0;
+    bottom: 0; 
     width: 100%;
     height: 60px;
     line-height: 40px;
     text-align: center;
-    padding: 20px;
+    padding: 20px; 
     background-color: rgb(122, 106, 106);
+} */
+
+.footer-span{
+    text-align: center;
+    color: white;
 }
 
 /* styling for 'Submit' button  */
@@ -49,4 +55,7 @@ p {
 
 .card {
     background-color: #adb5bd;
+}
+.card-section {
+    margin-bottom: 30px;
 }
