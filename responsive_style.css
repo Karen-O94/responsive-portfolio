@@ -42,3 +42,11 @@ body{
 p {
     font-size: 20px;
 }
+
+.card-title{
+    text-align: center;
+}
+
+.card {
+    background-color: #adb5bd;
+}
