@@ -1,6 +1,9 @@
 # Responsive Portfolio
 The purpose of this project was to create a responsive porfolio page using CSS Bootstrap. The aim was to ensure that the layout and styling was consistent across all pages regardless of the viewport/screen size.
 
+## Link to Deployed Profile Page
+[Portfolio](https://karen-o94.github.io/responsive-portfolio/)
+
 ## First steps: Navbar and Footer
 **Navbar**: I initially started with adding a navbar for each site. I opted for putting the navbar within the header tag as I had difficulties with expanding the width within the body of the page. Later on during the project, a toggler was embedded added with links to the other pages.
 
@@ -12,9 +15,6 @@ The [My Porfolio](https://karen-o94.github.io/responsive-portfolio/index.html): 
 The [Contact Page](https://karen-o94.github.io/responsive-portfolio/contact.html): Built with form element using Boostrap all contained within one column
 
 The [Portfolio](https://karen-o94.github.io/responsive-portfolio/portfolio.html): Built with a series of 3 rows and 2 columns to hold images. The size of images was determined based on the size of the container to avoid images exceeding the container when screensize was reduced. Unfortunately I was not able to reduce the spacing within the 2 columns on a desktop screen but this spacing was eliminated as screen size was minimised. 
-
-## Link to Deployed Profile Page
-[Portfolio](https://karen-o94.github.io/responsive-portfolio/)
 
 **Screenshot**
 ![responsive_portfolio](https://user-images.githubusercontent.com/74797740/102023227-d5170d80-3d83-11eb-863e-b93c1128af47.png)
