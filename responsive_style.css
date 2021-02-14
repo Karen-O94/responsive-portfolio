@@ -35,6 +35,10 @@
 }
 
 #unsplash {
+    font-size: 10px;
+}
+
+.footer{
     padding: 0;
 }
 /* styling for 'Submit' button  */
