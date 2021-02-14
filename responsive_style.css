@@ -1,8 +1,6 @@
 /* Styling for the background of the page */
 .wrapper {
-    /* background-image: url(img/texturedwall.jpg); */
-    background-color: dimgray;
-    /* background-size: 500px 700px; */
+    background-color: gray;
      /* min-height: calc(100vh - 67px - 60px);  */
 }
 
