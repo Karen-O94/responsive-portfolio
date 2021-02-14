@@ -18,7 +18,8 @@ The [Portfolio](https://karen-o94.github.io/responsive-portfolio/portfolio.html)
 
 **Screenshots**
 ![image](https://user-images.githubusercontent.com/74797740/107884437-05e30280-6eed-11eb-9dec-4a5ae77fe2e9.png)
-![image](https://user-images.githubusercontent.com/74797740/107884466-2c08a280-6eed-11eb-9a32-7bc942f499cd.png)
+![image](https://user-images.githubusercontent.com/74797740/107887077-7b55cf80-6efb-11eb-8c30-9260f7f50f42.png)
+
 
 ## Final Steps & Conclusion:
 Tidying up formatting, including semantic tags and improving the overall styling of page. 

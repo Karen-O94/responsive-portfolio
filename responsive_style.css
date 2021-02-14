@@ -3,6 +3,11 @@
     background-color: gray;
      /* min-height: calc(100vh - 67px - 60px);  */
 }
+.portfolio {
+    background-image: url(img/image26669.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .display-4, .lead {
  text-align: center;
@@ -18,19 +23,20 @@
     background-size: cover;
     height: 100vh;
 }
-/*Dimensions for body*/
-/* body{
-    position: relative;
-    padding-bottom: 60px;
-    min-height: 100vh;
-} */
+
 
 /* styling for footer across all 3 pages */
 .footer-span{
-    text-align: center;
     color: white;
 }
 
+#freepik, #unsplash {
+    color: white;
+}
+
+#unsplash {
+    padding: 0;
+}
 /* styling for 'Submit' button  */
 .button-container {
     padding: 5px;
@@ -55,7 +61,7 @@
 }
 
 .heading {
-    color: white;
+    color: black;
 }
 p {
     color: white;
